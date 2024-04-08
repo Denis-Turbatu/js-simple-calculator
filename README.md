@@ -27,26 +27,26 @@ Se non avete completato il layout della calcolatrice potete usare il codice che 
 ### RAGIONAMENTO
 
 - [] Ad ogni click di un bottone verrà mostrato sul display il valore
-    - [] Aggiungo addEventListener ai bottoni
-    - [] Stampo nel div '.display' il valore del bottone premuto | type: string
-    - [] Attesa che l'utente inserisca il simbolo dell'operazione
+    - [X] Aggiungo addEventListener ai bottoni
+    - [X] Stampo nel div '.display' il valore del bottone premuto | type: string
+    - [X] Attesa che l'utente inserisca il simbolo dell'operazione
 
-- []  Funzione gestioneOperazione()
-    - [] addEventListener sui bottoni delle operazioni
-    - [] Sul click dell'operatore 
-        - [] Conversione stringa in numero digitato sul display
-        - [] Assegazione alla variabile numeroUno del valore nel display
-        - [] Settare il testo del display a "" 
-        - [] Settare 'true' alla varibile flag  del simbolo cliccato
+- [X]  Funzione gestioneOperazione()
+    - [X] addEventListener sui bottoni delle operazioni
+    - [X] Sul click dell'operatore 
+        - [X] Conversione stringa in numero digitato sul display
+        - [X] Assegazione alla variabile numeroUno del valore nel display
+        - [X] Settare il testo del display a "" 
+        - [X] Settare 'true' alla varibile flag  del simbolo cliccato
 
-- [] Eseguire il salvataggio del secondo valore
-    - [] Digitare il secondo valore su display attraverso i addEventListener
+- [X] Eseguire il salvataggio del secondo valore
+    - [X] Digitare il secondo valore su display attraverso i addEventListener
 
-- [] Funzione stampaRisultato()
-    - [] Premere il tasto '='
-    - [] Convertire il testo del display in numero e salvarlo della varibile numeroDue
-    - [] Creare blocco if dove controlla la variabile flag delle operazioni
-    - [] Trovata l'operazione 'true', fare return dell'operazione richiesta
+- [X] Funzione stampaRisultato()
+    - [X] Premere il tasto '='
+    - [X] Convertire il testo del display in numero e salvarlo della varibile numeroDue
+    - [X] Creare blocco if dove controlla la variabile flag delle operazioni
+    - [X] Trovata l'operazione 'true', fare return dell'operazione richiesta
 
 ```
 Se (add = true){

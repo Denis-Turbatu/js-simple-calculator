@@ -41,10 +41,12 @@ body{
 .display{
     background-color: #000000;
     text-align: right;
+    height: 70px;
+    color: #09D297;
+    font-size: 3rem;
 }
 
-.number-text{
-    color: #09D297;
+.number-text, .sign-text{
     font-size: 40px; 
     display: inline-block; 
     padding: 15px 5px; 
@@ -74,7 +76,7 @@ body{
     width: calc(100% / 3 - 8px);
 }
 
-.btn-num, .btn-sign {
+.btn-num, .btn-sign, .btn-equal {
     height: 50px;
     margin: 4px;
     background-color: #BBBBBB;
@@ -83,6 +85,16 @@ body{
     box-shadow: -3px 4px 0px darkgray;
     font-family: 'Seven Segment', sans-serif;
     font-size: 30px;
+}
+
+.btn-equal{
+    width: calc(100% / 3 - 8px);
+}
+
+.btn-num:active, 
+.btn-sign:active,
+.btn-equal:active {
+    box-shadow: -1px 2px 0px darkgray;
 }
 
 .btn-num{
