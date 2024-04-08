@@ -76,7 +76,7 @@ body{
     width: calc(100% / 3 - 8px);
 }
 
-.btn-num, .btn-sign, .btn-equal {
+.btn-num, .btn-sign, .btn-equal, .btn-clear{
     height: 50px;
     margin: 4px;
     background-color: #BBBBBB;
@@ -114,6 +114,6 @@ body{
     background-color: #FF9F0A;
 }
 
-.eval, .btn-sign {
+.eval, .btn-sign, .btn-clear {
     color: #fff;
 }

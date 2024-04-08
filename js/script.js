@@ -4,6 +4,7 @@ const btnSign = document.querySelectorAll(".btn-sign");
 const display = document.querySelector(".number-text");
 const displaySign = document.querySelector(".sign-text");
 const btnEqual = document.querySelector(".btn-equal");
+const btnClear = document.querySelector(".btn-clear");
 
 let numberOne = 0;
 let numberTwo = 0;
@@ -18,15 +19,20 @@ btnNumber.forEach(function (button, index) {
 btnSign.forEach(function (button, index) {
     button.addEventListener("click", function () {
         signOperation = true;
-        console.log(signOperation, button.innerHTML);
         numberOne = gestioneOperazioneNum1(numberOne);
-        console.log(numberOne, "numberOne");
-        displaySign.innerHTML = ` ${button.innerHTML}`;
+        console.log(numberOne, "numero 1");
+        displaySign.innerHTML = `${button.innerHTML}`;
     });
 });
 
 btnEqual.addEventListener("click", function(){
     numberTwo = gestioneOperazioneNum2(numberTwo);
-    console.log(numberTwo, "numberTwo");
+    console.log(numberTwo, "numero 2");
+    console.log("risultato: ");
     stampaRisultato(numberOne, numberTwo);
+});
+
+btnClear.addEventListener("click", function(){
+    display.innerHTML = "";
+    displaySign.innerHTML = "";
 });
